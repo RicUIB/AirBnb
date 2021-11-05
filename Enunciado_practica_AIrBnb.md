@@ -3,15 +3,15 @@ title: "AirBnb Data enunciado práctica TADM 21_22. MADM"
 author: "Grupo y nombre de cada usuario"
 date: '2021-2022'
 output:
+  html_document: 
+    toc: yes
+    number_sections: yes
+    keep_md: yes
   word_document:
     toc: yes
   pdf_document:
     toc: yes
     number_sections: yes
-  html_document: 
-    toc: yes
-    number_sections: yes
-    keep_md: yes
 linkcolor: red
 header-includes: \renewcommand{\contentsname}{Contenidos}
 citecolor: blue
