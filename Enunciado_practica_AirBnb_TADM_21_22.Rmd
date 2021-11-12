@@ -3,11 +3,11 @@ title: "AirBnb Data enunciado práctica TADM 21_22. MADM"
 author: "Grupo y nombre de cada práctica"
 date: '2021-2022'
 output:
-  word_document:
-    toc: yes
   pdf_document:
     toc: yes
     number_sections: yes
+  word_document:
+    toc: yes
   html_document: 
     toc: yes
     number_sections: yes
@@ -35,12 +35,10 @@ Autores:
 # Taller evaluable en grupos datos AirBnb
 
 
-
-Enlace  a estos datos  de [AirBnb](http://insideairbnb.com/get-the-data.html)
-Generad  un proyecto nuevo. Bajad lo datos de AirBnb a un carpeta/directorio que se llame `AirBnb`
-y dentro de `AirBnb` crear una carpeta/directorio que se llame `model_AirBnb`.
-
-Podéis (tenéis) que  utilizar las ayudas del taller de estos datos.
+* Aquí tenéis el enlace a estos datos  de [AirBnb](http://insideairbnb.com/get-the-data.html)
+* Generad  un proyecto nuevo. 
+* Bajad lo datos de AirBnb a un carpeta/directorio que se llame `AirBnb` y dentro de `AirBnb` crear una carpeta/directorio que se llame `model_AirBnb`.
+* Podéis (tenéis) que  utilizar las ayudas del taller de estos datos.
 
 
 
@@ -48,15 +46,15 @@ Podéis (tenéis) que  utilizar las ayudas del taller de estos datos.
 ## Instrucciones
 
 * Entregad en grupos de prácticas.
-* Se puede hacer con R o python.
-* Hay que entregar el Rmd/notebook junto con su salida en html/pdf
-* Máxima longitud: 10 páginas en pdf.
+* Se puede hacer con R o Python.
+* Hay que entregar el Rmd/Notebook junto con su salida en html/pdf
+* Máxima longitud: equivalente a 10 páginas en pdf.
 * Hay que cuidar la presentación, ortografía y redacción.
-* Fecha entrega dd de mm de yyyy.
+* Fecha límite entrega en dd de mm de yyyy.
 
 ## Contexto de los datos 
 
-La página [Inside .Airbnb](http://insideairbnb.com/) http://insideairbnb.com/ contiene  información sobre los datos de los apartementos o residencias vacacionales puesto en alquiler en diversas locacizaciones del mundo.
+La página [Inside Airbnb](http://insideairbnb.com/) http://insideairbnb.com/ contiene  información sobre los datos de los apartamentos o residencias vacacionales puesto en alquiler en diversas locacizaciones del mundo.
 
 Los datos recogidos  están repartidos por diversas regiones, provicias, departamento, condados... del mundo. Los datos son [Open Source](https://www.redhat.com/es/topics/open-source/what-is-open-source) y los podemos usar ver [About Inside Airbnb](/http://insideairbnb.com/about.html) /http://insideairbnb.com/about.html.
 
