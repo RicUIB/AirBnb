@@ -158,6 +158,6 @@ Presentación final:
 
 * Cuestión extra: panel interactivo +20\%
 
-Podréis conseguir puntos adicionales haciendo un panel interactivo con alguna de las librerías o programas vistos en el máster: shiny, graphana, Power BI, tablea.
+Podréis conseguir puntos adicionales haciendo un panel interactivo con alguna de las librerías o programas vistos en el máster: shiny, graphana, Power BI, tableau.
 
 
