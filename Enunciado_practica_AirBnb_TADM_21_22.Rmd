@@ -1,6 +1,6 @@
 ---
 title: "AirBnb Data enunciado práctica TADM 21_22. MADM"
-author: "Grupo y nombre de cada usuario"
+author: "Grupo y nombre de cada práctica"
 date: '2021-2022'
 output:
   word_document:
@@ -20,8 +20,20 @@ urlcolor: blue
 ---
 
 
+Título:
+
+Autores:
+ 
+
+ 
+1  Apellidos, Nombre
+2. Apellidos, Nombre 
+3. Apellidos, Nombre
+4. Apellidos, Nombre
+5. Apellidos, Nombre
 
 # Taller evaluable en grupos datos AirBnb
+
 
 
 Enlace  a estos datos  de [AirBnb](http://insideairbnb.com/get-the-data.html)
