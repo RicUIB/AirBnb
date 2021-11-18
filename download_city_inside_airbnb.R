@@ -3,7 +3,8 @@ zone_Barcelona="http://data.insideairbnb.com/spain/catalonia/barcelona/2021-09-1
 zone_Valencia="http://data.insideairbnb.com/spain/vc/valencia/2021-09-21/data/"
 zone_Mallorca="http://data.insideairbnb.com/spain/islas-baleares/mallorca/2021-09-14/data/"
 
-file_names=c("listings.csv.gz","calendar.csv.gz","reviews.csv.gz","neighbourhoods.csv","neighbourhoods.geojson")
+#file_names=c("listings.csv.gz","calendar.csv.gz","reviews.csv.gz","neighbourhoods.csv","neighbourhoods.geojson")
+file_names=c("listings.csv.gz","calendar.csv.gz","reviews.csv.gz")
 
 # zone_Mallorca
 
