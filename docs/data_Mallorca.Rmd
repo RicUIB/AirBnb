@@ -1,0 +1,47 @@
+---
+title: "Mallorca_UIB"
+author: "Guillem Llull"
+date: "25/11/2021"
+output: html_document
+---
+
+```{r csv Mallorca, eval=FALSE}
+listings_MLL<-read.csv2("data/Mallorca/listings.csv", header = TRUE, sep=",", dec=".")
+
+reviews_MLL<-read.csv2("data/Mallorca/reviews.csv", header = TRUE, sep = ",")
+
+calender_MLL<-read.csv2("data/Mallorca/calendar.csv.gz", header = TRUE, sep = ",", dec = ".")
+
+str(listings_MLL)
+str(reviews_MLL)
+str(calender_MLL)
+
+# definimos como as.date la columna $date de los tres data frame
+
+listings_MLL$last_review<- as.Date(listings_MLL$last_review)
+reviews_MLL$date<- as.Date(reviews_MLL$date)
+calender_MLL$date<-as.Date(calender_MLL$date)
+
+# comprobamos que el cambio se ha realizado correctamente
+class(listings_MLL$last_review)
+class(reviews_MLL$date)
+class(calender_MLL$date)
+
+# eliminamos los simbolos no alfa-numericos de las variables de precios
+calender_MLL$price<-gsub("[[:punct:]]", " ",calender_MLL$price)
+calender_MLL$adjusted_price<- gsub("[[:punct:]]", " ", calender_MLL$adjusted_price)
+
+# eliminamos los dos ultimos 0's de las variables de precios
+calender_MLL$price<- substr(calender_MLL$price,1,nchar(calender_MLL$price)-2)
+calender_MLL$adjusted_price<- substr(calender_MLL$adjusted_price,1,nchar(calender_MLL$adjusted_price)-2)
+
+#ahora las pasamos de caracter a numericas
+calender_MLL$price<- as.numeric(calender_MLL$price) ############ CUIDADO : Warning: NAs introduced by coercion // pero a simple vista por lo general creo que bien ###########
+calender_MLL$adjusted_price<- as.numeric(calender_MLL$adjusted_price) ############ CUIDADO : Warning: NAs introduced by coercion
+
+str(listings_MLL)
+str(reviews_MLL)
+str(calender_MLL)
+
+```
+
