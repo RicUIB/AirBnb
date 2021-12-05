@@ -1,0 +1,7 @@
+---
+title: "MALL_UIB"
+author: "Guillem Llull"
+date: "25/11/2021"
+output: html_document
+---
+

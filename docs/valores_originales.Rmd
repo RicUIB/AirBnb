@@ -1,0 +1,21 @@
+---
+title: "valores_originales"
+author: "Guillem Llull"
+date: "26/11/2021"
+output: html_document
+---
+
+```{r}
+Original_cal_MLL<-read.csv2("../data/Mallorca/calendar.csv.gz", header = TRUE, sep = ",", dec = ".")
+Original_rev_MLL<- read.csv2("../data/Mallorca/reviews.csv.gz", header = TRUE, sep = ",", dec = ".")
+Original_list_MLL<-read.csv2("../data/Mallorca/listings.csv.gz", header = TRUE, sep = ",", dec=".")
+
+Original_cal_BCN<-read.csv2("../data/Barcelona/calendar.csv.gz", header = TRUE, sep = ",", dec = ".")
+Original_rev_BCN<- read.csv2("../data/Barcelona/reviews.csv.gz", header = TRUE, sep = ",", dec = ".")
+Original_list_BCN<-read.csv2("../data/Barcelona/listings.csv.gz", header = TRUE, sep = ",", dec=".")
+
+Original_cal_VAL<-read.csv2("../data/Valencia/calendar.csv.gz", header = TRUE, sep = ",", dec = ".")
+Original_rev_VAL<- read.csv2("../data/Valencia/reviews.csv.gz", header = TRUE, sep = ",", dec = ".")
+Original_list_VAL<-read.csv2("../data/Valencia/listings.csv.gz", header = TRUE, sep = ",", dec=".")
+```
+
